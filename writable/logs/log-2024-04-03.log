@@ -1,0 +1,10 @@
+CRITICAL - 2024-04-03 18:16:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "keranjang.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keranjang.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('keranjang', [], true)
+ 3 APPPATH\Controllers\Keranjang.php(9): view('keranjang')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Keranjang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\pwl\\public\\index.php')
